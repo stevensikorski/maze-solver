@@ -10,7 +10,8 @@
 ### Installation
 ```
 git clone https://github.com/stevensikorski/maze-solver.git
-cd maze-solver
+cd maze-solver/build
+./maze-solver
 ```
 
 ### Demonstration
