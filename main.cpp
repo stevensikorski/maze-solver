@@ -15,7 +15,8 @@ int main()
     std::cout << "\e[1m" << "|               Maze Solver               |" << "\e[0m" << std::endl;
     std::cout << "+-----------------------------------------+" << std::endl;
 
-    if (mymaze.empty())
+    bool mazeReplaced = (mymaze.cols == 1) ? 1 : 0;
+    if (mazeReplaced)
     {
         std::cout << std::endl << "\x1b[33m" << "\e[1m" << "maze.png" << "\e[0m" << "\x1b[33m" << " not found " << "\x1b[0m" << std::endl;
     }
@@ -30,7 +31,7 @@ int main()
     std::cout << "  3. Replace " << "\e[1m" << "maze.png" << "\e[0m" << " inside the " << "\e[1m" << "mazes" << "\e[0m" << " folder." << std::endl;
     std::cout << "  4. Restart the executable." << std::endl; 
 
-    if (!mymaze.empty())
+    if (!mazeReplaced)
     {
         Maze maze(mymaze);
     }
