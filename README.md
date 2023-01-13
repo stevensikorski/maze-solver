@@ -14,5 +14,4 @@ cd maze-solver
 ```
 
 ### Demonstration
-
-https://user-images.githubusercontent.com/92190471/212237751-cd3c410b-f0e9-4c52-b913-915eca4a470f.mp4
+https://user-images.githubusercontent.com/92190471/212238658-3dec56a4-0d4a-45cb-81b8-4ccfbf4f63ed.mp4
