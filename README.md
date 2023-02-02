@@ -5,7 +5,7 @@
 ### Requirements
 
 - CMake 3.25 or higher
-- C++ Compiler
+- OpenCV
 
 ### Installation
 ```
